@@ -1,6 +1,6 @@
 import { Telegraf } from 'telegraf';
-import { BotContext } from './types/index.js';
-import { helpCommand } from './commands/help.js';
+import { BotContext } from './types/index';
+import { helpCommand } from './commands/help';
 
 export function createBot(token: string): Telegraf<BotContext> {
   const bot = new Telegraf<BotContext>(token);

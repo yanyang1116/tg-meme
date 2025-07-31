@@ -1,4 +1,4 @@
-import { BotContext } from '../types/index.js';
+import { BotContext } from '../types/index';
 
 export const helpCommand = {
   command: 'help',
